@@ -1,0 +1,21 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@600;700&family=Orbitron:wght@500;600&family=Poppins:wght@400;700&display=swap');
+
+
+:root {
+    --cor--de--fundo: #EBECEE;
+    --branco: #FFFFFF;
+
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    
+    --fonte-principal: "Poppins";
+}
+
+body {
+    background-color: var(--cor--de--fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
