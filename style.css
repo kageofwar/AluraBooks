@@ -1,6 +1,10 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carossel.css");
+@import url("styles/carossel2.css");
+@import url("styles/topicos.css");
+@import url("styles/rodape.css");
+@import url("styles/contato.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@600;700&family=Orbitron:wght@500;600&family=Poppins:wght@400;700&display=swap');
 
 
@@ -10,6 +14,7 @@
 
     --laranja: #EB9B00;
     --azul: #002F52;
+    --azul-2: #002F52;
     
     --fonte-principal: "Poppins";
 }
