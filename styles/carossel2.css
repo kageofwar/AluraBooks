@@ -23,6 +23,8 @@
 .card_mais_vendidos__conteudo {
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
 }
 .card_mais_vendidos_descricao {
     margin: 0.5em 2em 0.5em 0;
@@ -32,4 +34,37 @@
 
 .card_mais_vendidos_imagem {
     text-align: center;
+}
+
+.botoes {
+    justify-content: center;
+}
+
+.saiba_mais_vendidos {
+    justify-content: center;
+    width: 5em;
+    background-color: black;
+}
+
+.botoes__ancora_mais_vendidos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+    background-color: black;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .card_mais_vendidos {
+        width: 50%;
+        margin: 2em auto;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
 }

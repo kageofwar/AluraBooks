@@ -11,12 +11,15 @@
 :root {
     --cor--de--fundo: #EBECEE;
     --branco: #FFFFFF;
+    --cinza: #474646;
 
     --laranja: #EB9B00;
     --azul: #002F52;
     --azul-2: #002F52;
+    --preto: #000000;
     
     --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans"
 }
 
 body {
