@@ -131,4 +131,37 @@
     .opcoes__botao {
         display: none;
     }
+
+    .container__texto {
+        display: none;
+    }
+
+    .container__botao:checked ~ .container__rotulo > .cabeçalho__menu-hamburguer {
+        background-image: url("/img/menu_black.svg");
+    }
+
+    .container__botao:checked~.container__rotulo {
+        background: var(--azul);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabeçalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
+    }
 }
